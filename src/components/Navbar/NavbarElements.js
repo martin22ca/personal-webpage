@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   display: flex ;
   justify-content:center ;
   font-size: 1rem ;
-  position:fixed ;
+  position:absolute ;
   top:0 ;
   z-index:10 ;
 
@@ -18,6 +18,7 @@ export const Nav = styled.nav`
 `
 export const NavbarContainer = styled.div`
  display:flex ;
+ position: absolute;
  justify-content: space-between ;
  height: 80px;
  z-index: 1;
@@ -43,7 +44,7 @@ export const MobileIcon = styled.div`
  
  @media screen and (max-width: 768px){
   display:block ;
-  position: absolute;
+  position: fixed;
   top: 0;
   right:0;
   transform:translate(-100%,60%) ;
