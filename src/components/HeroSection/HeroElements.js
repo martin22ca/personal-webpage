@@ -8,7 +8,8 @@ export const HeroContainer = styled.div`
  justify-content:center;
  align-items:center;
  width: 100%;
- height: 800px;
+ height: 100vh;
+ max-height:1080;
  position: relative;
  z-index: 1;
  content: '';
